@@ -1,0 +1,197 @@
+.header {
+  width: 100%;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 20px;
+}
+
+.logo img {
+  width: 30%;
+}
+
+.menu {
+  margin-bottom: 0;
+}
+
+.nav__item a {
+  text-decoration: none;
+  color: var(--heading-color);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.nav__item a:hover {
+  color: inherit;
+}
+
+.nav__item a.active__link {
+  color: var(--secondary-color);
+}
+
+.mobile__menu {
+  font-size: 1.3rem;
+  color: black;
+  display: none;
+}
+
+.mobile__menu i {
+  font-size: 1.3rem;
+  color: var(--heading-color);
+  cursor: pointer;
+}
+
+.sticky__header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 3px 3px 8px -3px #ddd;
+}
+
+@media only screen and (min-width: 992px) {
+  h5 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .logo img {
+    width: 40%;
+  }
+
+  .navigation {
+    width: 100%;
+    height: 66%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 999;
+    display: none;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 50%;
+    padding-top: 0rem;
+    margin-top: 5rem;
+    padding-bottom: 0.5rem;
+    background: lightgray;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    justify-content: center;
+    z-index: 9999;
+    animation-name: slideInRight;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-duration: 0.3s;
+    line-height: 0.5rem;
+    right: 0px;
+    padding-left: 0;
+  }
+
+  .show__menu {
+    display: block;
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  /* Fix sticky header for small devices */
+  .sticky__header {
+    position: sticky;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo img {
+    width: 45%;
+  }
+
+  .menu {
+    width: calc(100% - 65%);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .logo img {
+    width: 70%;
+  }
+
+  .navigation {
+    width: 100%;
+    height: 66%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 60%;
+    border-radius: 1.5rem;
+    padding-bottom: 0.5rem;
+    background: lightgray;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 9999;
+    animation-name: slideInRight;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-duration: 0.3s;
+    line-height: 0.5rem;
+    right: 25px;
+  }
+
+  .show__menu {
+    display: block;
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  /* Fix sticky header for extra small devices */
+  .sticky__header {
+    position: sticky;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .logo img {
+    width: 70%;
+  }
+
+  .menu {
+    width: 50%;
+    height: 68%;
+  }
+}
+
+.nav__right h5 {
+  font-size: 0.8rem;
+}
+
+.nav__btns button {
+  font-size: 0.8rem;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
