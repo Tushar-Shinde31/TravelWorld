@@ -3,20 +3,12 @@
 
 A Fullstack Tours & Travels Web App Using MERN Stack 💫
 
-## Backend Repository
-
-- [TravelWorld Backend Repository](https://github.com/shuence/Bakend-for-TravelWorld)
-
 ## Resources
 
 - [React Docs](https://beta.reactjs.org/)
 - [BootStrap](https://getbootstrap.com/docs/)
 - [ReactStrap](https://github.com/reactstrap/reactstrap)
 - [Stackoverflow](https://stackoverflow.com/)
-
-## Authors
-
-- [@Shuence](https://www.github.com/shuence) 💫
 
 ## Badges
 
@@ -30,16 +22,6 @@ A Fullstack Tours & Travels Web App Using MERN Stack 💫
 
 <https://github.com/shuence/Travel-World/assets/65482186/69a5ebf9-85d7-4f65-a8a2-066dceebbc24>
 
-## Setup
-
-To Setup this project run
-
-```bash
-git clone <https://github.com/shuence/Travel-World>
-cd Travel-World
-yarn
-yarn serve
-```
 
 ## Environment Variables
 
@@ -101,16 +83,12 @@ Overall, this project marked a significant milestone in my journey as a full-sta
 - Integrate geolocation services for location-based tour suggestions.
 - Implement a user dashboard for managing and tracking bookings.
 
-# Hi, I'm Shuence! 👋
-
 ## 🚀 About Me
 
-I'm Shubham Pitekar, a passionate full-stack developer with expertise in ReactJS,NextJS, NodeJs,ExpressJS and MongoDb. I love turning ideas into reality on the web. I thrive on challenges and continuously seek opportunities to push my boundaries. Let's create impactful projects together!
+I'm Tushar Shinde, a passionate full-stack developer with expertise in ReactJS,NextJS, NodeJs,ExpressJS and MongoDb. I love turning ideas into reality on the web. I thrive on challenges and continuously seek opportunities to push my boundaries. Let's create impactful projects together!
 
 ## 🛠 Skills
 
 JavaScript, HTML, CSS, React, Bootstrap, Node.js, Express, MongoDB.
 
 ## Happy coding 💯
-
-Made with love from [Shuence](https://shuence.netlify.app) ❤️
